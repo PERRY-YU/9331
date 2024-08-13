@@ -1,0 +1,17 @@
+example.com. A 93.184.215.14
+example.net. NS ns1.example.net.
+ns1.example.net. A 192.0.2.2
+test.com. A 203.0.113.5
+alias.com. CNAME test.com.
+mydomain.net. NS ns1.mydomain.net.
+ns1.mydomain.net. A 198.51.100.1
+bar.example.com. CNAME foobar.example.com.
+foobar.example.com. A 192.0.2.23
+foobar.example.com. A 192.0.2.24
+foo.example.com. CNAME bar.example.com.
+www.metalhead.com. CNAME metalhead.com.
+com. NS d.gtld-servers.net.
+d.gtld-servers.net. A 192.31.80.30
+. NS a.root-servers.net.
+. NS b.root-servers.net.
+a.root-servers.net. A 198.41.0.4
